@@ -1,19 +1,27 @@
-# HtmlAnalyzer
+# Html Analyzer
 
-## Resumo
-    
-### O __HtmlAnalyzer__ é um programa em Java que analisa uma página HTML, no qual, passado uma URL, é retornado o trecho de texto em que está contido no maior número de tags. Além disso, o programa é capaz de analizar se nenhum argumento foi passado no terminal, se realmente foi possível obter o conteúdo em HTML caso a conexão não tenha sido interrompida e se a estrutura HTML está mal-formada. Com isso, caso essas verificações falhem o programa será encerrado e mostrado ao usuário o que foi ocorrido.
+## Summary
+
+### Html Analyzer is a Java program that analyzes an HTML page. When a URL is passed to the program, it returns the text that is contained in the largest number of tags. Additionally, the program is capable of verifying if no argument was passed in the terminal, if the HTML content was successfully obtained in case the connection was not interrupted, and if the HTML structure is malformed. If any of these verifications fail, the program will be terminated and the user will be informed of what happened.
 
 <br>
 
-## Como Executar
+## How to use
 
-### Primeiramente para compilar o programa, deve-se estar no mesmo diretório que o arquivo __HtmlAnalyzer.java__ e executar a seguinte linha de comando no terminal:
+### Clone the repository
 ```
-javac HtmlAnalyzer.java
+$ git clone https://github.com/Guiga-Silva/Html-Analyzer.git
 ```
 
-### Em seguida, para executar o programa, ainda no mesmo diretório, deve-se executar o seguinte comando, substituindo __<__url__>__ pela URL a ser utilizada:
+### Compile the program
+```
+$ cd Html-Analyzer
+$ javac HtmlAnalyzer.java
+```
+
+### Run the program
 ```
 java HtmlAnalyzer.java <url>
 ```
+
+Replace `<url>` with the URL of the HTML page you want to analyze.
